@@ -21,12 +21,21 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
-   greeting = [ ]
+  greeting = [ ]
   attendees.each do |name|
     greeting.push("Hello, my name is #{name}.")
   end
   greeting.each do |greet|
     puts "#{greet}"
+  end
+  assigments = [ ]
+  room = 1
+  attendees.each do |assign|
+    assignments.push("Hello, #{name}! You'll be assigned to room #{room}!")
+    room += 1
+  end
+  assignments.each do |room|
+    puts "#{room}"
   end
 end
   
