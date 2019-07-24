@@ -22,16 +22,16 @@ end
 
 def printer(attendees)
   greeting = [ ]
-  attendees.each do |name|
-    greeting.push("Hello, my name is #{name}.")
+  attendees.each do |attend|
+    greeting.push("Hello, my name is #{attend}.")
   end
   greeting.each do |greet|
     puts "#{greet}"
   end
   assignments = [ ]
   room = 1
-  attendees.each do |assign|
-    assignments.push("Hello, #{name}! You'll be assigned to room #{room}!")
+  attendees.each do |person|
+    assignments.push("Hello, #{person}! You'll be assigned to room #{room}!")
     room += 1
   end
   assignments.each do |room|
