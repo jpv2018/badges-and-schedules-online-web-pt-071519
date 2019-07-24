@@ -20,7 +20,7 @@ def assign_rooms(names)
   return assignments
 end
 
-def printer(assign)
-  puts "#{$greeting}"
+def printer(attendees)
+  
 end
   
