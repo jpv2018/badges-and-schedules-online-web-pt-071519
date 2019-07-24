@@ -21,6 +21,6 @@ def assign_rooms(names)
 end
 
 def printer(assign)
-  puts "{$greeting}"
+  puts "#{$greeting}"
 end
   
