@@ -22,7 +22,7 @@ end
 
 def printer(attendees)
    greeting = [ ]
-  names.each do |name|
+  attendees.each do |name|
     greeting.push("Hello, my name is #{name}.")
   end
   greeting.each do |greet|
