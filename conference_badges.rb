@@ -23,7 +23,6 @@ end
 def printer(attendees)
   $greeting.each do |name|
     puts name
-  end
   $assignments.each do |assign|
     puts |assign|
 end
