@@ -26,5 +26,5 @@ def printer(attendees)
   end
   $assignments.each do |assign|
     puts |assign|
-  end
+end
   
