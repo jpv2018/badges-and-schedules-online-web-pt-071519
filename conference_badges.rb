@@ -21,5 +21,6 @@ def assign_rooms(names)
 end
 
 def printer(assign)
+  puts $batch_badge_creator
 end
   
