@@ -22,5 +22,7 @@ end
 
 def printer(attendees)
   $greeting.each do |name|
-    
+    puts "#{name}"
+  end
+end
   
