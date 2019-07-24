@@ -28,7 +28,7 @@ def printer(attendees)
   greeting.each do |greet|
     puts "#{greet}"
   end
-  assigments = [ ]
+  assignments = [ ]
   room = 1
   attendees.each do |assign|
     assignments.push("Hello, #{name}! You'll be assigned to room #{room}!")
